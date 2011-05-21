@@ -37,19 +37,19 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "localhost";
+$db['default']['hostname'] = "localhost:/tmp/mysql/jeannie.sock";
 
 // Provide the user name from Step 2 of "Install the PHP Rules sample application"
 // http://swindle.net/php-rules/tutorials/getting-started/install-php-rules-sample-application
-$db['default']['username'] = "swindlen_airline";
+$db['default']['username'] = "sonja";
 
 // Provide the password from Step 2 of "Install the PHP Rules sample application"
 // http://swindle.net/php-rules/tutorials/getting-started/install-php-rules-sample-application
-$db['default']['password'] = "kgEZQTQL?9]n";
+$db['default']['password'] = "28MXc1kn";
 
 // Provide the database name from Step 2 of "Install the PHP Rules sample application"
 // http://swindle.net/php-rules/tutorials/getting-started/install-php-rules-sample-application
-$db['default']['database'] = "swindlen_airlines";
+$db['default']['database'] = "jeannie";
 
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
